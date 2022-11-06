@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표</title>
+</head>
+
+<body>
+    이 표는 기본 표 입니다.
+    <table border="5">
+        <tr>
+            <td>이름</td>
+            <td>성별</td>
+            <td>나이</td>
+        </tr>
+        <tr>
+            <td>김예시</td>
+            <td>남</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>이예시</td>
+            <td>여</td>
+            <td>15</td>
+        </tr>
+    </table><br>
+    이 표는 머릿말이 적용된 표입니다.
+    <table border="5">
+        <tr>
+            <th>이름</th>
+            <th>성별</th>
+            <th>나이</th>
+        </tr>
+        <tr>
+            <td>김예시</td>
+            <td>남</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>이예시</td>
+            <td>여</td>
+            <td>15</td>
+        </tr>
+    </table><br>
+    이 표는 2개의 행(row)을 합친 것이 적용된 표입니다.
+    <table border="5">
+        <tr>
+            <th>이름</th>
+            <th>성별</th>
+            <th>나이</th>
+        </tr>
+        <tr>
+            <td>김예시</td>
+            <td>남</td>
+            <td rowspan="2">비공개</td>
+        </tr>
+        <tr>
+            <td>이예시</td>
+            <td>여</td>
+        </tr>
+    </table><br>
+    이 표는 열(column)을 합친 것이 적용된 표입니다.
+    <table border="5">
+        <tr>
+            <th>이름</th>
+            <th>성별</th>
+            <th>나이</th>
+        </tr>
+        <tr>
+            <td>김예시</td>
+            <td colspan="2">비공개</td>
+        </tr>
+        <tr>
+            <td>이예시</td>
+            <td>여</td>
+            <td>15</td>
+        </tr>
+    </table><br>
+</body>
+
+</html>
