@@ -1,0 +1,22 @@
+head태그의 내용 - meta
+
+meta태그는 헤들 태그 내부에 작성하는 태그이다.
+컨텐츠를 담아내는 것이 아니라 웹페이지의 정보를 기술해주는 역할을 한다.
+문법은 메타태그를 사용하고, 속성을 통해서 정보를 표현하는 형식의 태그이다.
+아래와 같이 작성한다.
+<meta name="속성의 이름" content="속성의 값" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="refresh" content="2;url=http://opentutorials.org/">
+ ㄴ 위의 refresh문단을 해석하면 2초 후에 속성값에 있는 페이지로 이동한다는 내용이다.
+
+대표적인 속성값은 아래와 같다.
+description : 간략한 설명
+keywords : 검색어, 현재 페이지에서 사용하는 주요한 단어들
+Content-type : 이 속성은 특이하게 name가 아닌 http-equiv를 사용하는데, 
+                현재의 이 웹페이지가 html이라는 것을 조금 더 명확히하고, 유니코드를
+                정의하는데 사용한다. 이 문자코드를 제대로 기술하지 않으면 웹페이지에서
+                문자가 깨진다거나 제대로 나타내지 못한다거나 할 수 있다.
+                작성할 때 !안에 들어있다.
+refresh : 새로고침 혹은 이동
+                
+            
