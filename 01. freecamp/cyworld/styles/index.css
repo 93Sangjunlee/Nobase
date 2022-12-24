@@ -112,27 +112,42 @@ padding: 32px 0px 0px 32px;
             font-size: 10px;
             color: #183052;
             text-decoration-color: #183052;
-            
             }
-
                 .w__left__body__profile__name{
                 margin-bottom: 10px;
-                
                 }
+
                 .w__left__body__profile__name:hover{
                 color: #183052;
+                transition: all 0.2s linear;
+                transform: scale(1.05);
                 }
 
                 .w__left__body__profile__phone{
                     margin-bottom: 10px;
                 }
 
+                .w__left__body__profile__phone:hover{
+                    transition: all 0.2s linear;
+                    transform: scale(1.05);
+                }
+
                 .w__left__body__profile__email{
                     margin-bottom: 10px;
                 }
 
+                .w__left__body__profile__email:hover{
+                    transition: all 0.2s linear;
+                    transform: scale(1.05);
+                }
+
                 .w__left__body__profile__instagram{
                     
+                }
+
+                .w__left__body__profile__instagram:hover{
+                    transition: all 0.2s linear;
+                    transform: scale(1.05);
                 }
 
             .w__left__body__footer{
