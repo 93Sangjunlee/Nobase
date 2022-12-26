@@ -1,3 +1,4 @@
+// array_object-in_arry
 let classmates = ["철수", "영희", "훈이"]
 // undefined
 classmates
